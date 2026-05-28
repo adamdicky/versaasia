@@ -1,8 +1,8 @@
-# Big Bang Number Generator
+# Big Bang Number Generator Case Study
 
 This project creates a list of numbers from 1 to 100.
 
-Some numbers are replaced with words:
+Numbers are replaced with words:
 
 - Numbers divisible by 3 become `BIG`
 - Numbers divisible by 5 become `BANG`
