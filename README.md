@@ -19,19 +19,59 @@ When the script finishes, it creates a file named `output.json` that contains th
 
 ## How To Run
 
-First, install the project dependencies:
+Follow these steps from the beginning.
+
+### 1. Open Terminal
+
+Open the Terminal app on your computer.
+
+Terminal is the place where you type commands to download and run the project.
+
+### 2. Download The Project
+
+Copy and paste this command into Terminal, then press Enter:
+
+```bash
+git clone https://github.com/adamdicky/versaasia.git
+```
+
+This downloads the project from GitHub into a new folder named `versaasia`.
+
+### 3. Go Into The Project Folder
+
+Copy and paste this command, then press Enter:
+
+```bash
+cd versaasia
+```
+
+This moves Terminal into the project folder. This step is important because the next commands only work inside the `versaasia` folder.
+
+### 4. Install The Project Requirements
+
+Copy and paste this command, then press Enter:
 
 ```bash
 npm install
 ```
 
-Then run the script:
+This installs the tools needed to run the TypeScript file.
+
+### 5. Run The Script
+
+Copy and paste this command, then press Enter:
 
 ```bash
 npm start
 ```
 
-After running it, open `output.json` to see the generated list.
+This runs the code in `function.ts`.
+
+### 6. Check The Result
+
+After running the script, a file named `output.json` will be created inside the `versaasia` folder.
+
+Open `output.json` to see the generated list.
 
 ## What The Code Does
 
