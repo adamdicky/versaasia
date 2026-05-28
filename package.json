@@ -1,0 +1,15 @@
+{
+  "name": "big-bang-number-generator",
+  "version": "1.0.0",
+  "description": "Generates a Big Bang number list from 1 to 100 and saves it to output.json.",
+  "main": "function.js",
+  "scripts": {
+    "start": "ts-node function.ts",
+    "build": "tsc function.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
